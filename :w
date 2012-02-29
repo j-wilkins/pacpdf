@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'pacman'
+rescue LoadError => boom
+  $:.push File.join(File.dirname(File.dirname(__FILE)), 'lib')
+  require 'pacman'
+end
+
+
+game_count = ARGV[0].to_i || 1
+p PacMan.new.draw_game(game_count).save
