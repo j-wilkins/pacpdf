@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["jake@jakewilkins.com"]
   s.homepage    = ""
   s.summary     = %q{Write a pacman PDF}
-  s.description = %q{Write some pacmen}
+  s.description = %q{Write some pacmen. to load, you have to export RUBYOPT=-Ku}
 
   #s.rubyforge_project = "pacman"
 
