@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
 begin
-  require 'pacman'
+  require 'pacpdf'
 rescue LoadError => boom
   puts "adjusting load path"
   $:.push File.join(File.dirname(File.dirname(__FILE__)), 'lib')
-  require 'pacman'
+  require 'pacpdf'
 end
 
 
 game_count = ARGV[0].nil? ? 1 : ARGV[0].to_i
-p PacMan.new.draw_game(game_count).save
+p PacPdf.new.draw_game(game_count).save

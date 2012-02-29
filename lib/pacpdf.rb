@@ -9,10 +9,10 @@
 #
 # $Id: pac.rb,v 1.4.2.1 2005/08/25 03:38:05 austin Exp $
 #++
-require 'pacman/version'
+require 'pacpdf/version'
 require 'pdf/writer'
 
-class PacMan
+class PacPdf
 
   attr_accessor :pdf
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pacman (0.0.1)
+    pacpdf (0.0.1)
       pdf-writer
 
 GEM
@@ -21,4 +21,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pacman!
+  pacpdf!

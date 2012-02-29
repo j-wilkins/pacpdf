@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "pacman/version"
+require "pacpdf/version"
 
 Gem::Specification.new do |s|
-  s.name        = "pacman"
-  s.version     = Pacman::VERSION
+  s.name        = "pacpdf"
+  s.version     = PacPdf::VERSION
   s.authors     = ["Jake Wilkins"]
-  s.email       = ["jake.wilkins@adfitech.com"]
+  s.email       = ["jake@jakewilkins.com"]
   s.homepage    = ""
   s.summary     = %q{Write a pacman PDF}
   s.description = %q{Write some pacmen}
